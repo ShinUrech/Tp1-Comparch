@@ -15,10 +15,11 @@ begin
     alu:process(op)
     begin
         case op is
-            when "00" => r <= a nor b
-            when "01" => r <= a and b
-            when "10" => r <= a or b
-            when "11" => r <= a xor b
+            when "00" => r <= a nor b;
+            when "01" => r <= a and b;
+            when "10" => r <= a or b;
+            when "11" => r <= a xor b;
+            when OTHERS => r <= a and b;
         end case;
     end process;
 
