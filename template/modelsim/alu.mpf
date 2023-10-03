@@ -402,7 +402,7 @@ ConcurrentFileLimit = 40
 ;    wlf   {wlf file only}
 ; msgmode = both
 [Project]
-; Warning -- Do not edit the project properties directly.
+** Warning: ; Warning -- Do not edit the project properties directly.
 ;            Property names are dynamic in nature and property
 ;            values have special syntax.  Changing property data directly
 ;            can result in a corrupt MPF file.  All project properties
@@ -474,5 +474,10 @@ DEBUGDATABASE_DoubleClick = Edit
 DEBUGDATABASE_CustomDoubleClick = 
 DEBUGARCHIVE_DoubleClick = Edit
 DEBUGARCHIVE_CustomDoubleClick = 
+<<<<<<< HEAD
 Project_Major_Version = 10
 Project_Minor_Version = 5
+=======
+Project_Major_Version = 2020
+Project_Minor_Version = 1
+>>>>>>> 21b9847e0a25f859548b02e4392fd3f7ccb95fa9

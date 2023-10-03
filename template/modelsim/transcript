@@ -1,9 +1,41 @@
+<<<<<<< HEAD
 # Compile of tb_logic_unit.vhd was successful.
 # Compile of tb_ALU.vhd failed with 3 errors.
 # Compile of shift_unit.vhd was successful.
 # Compile of add_sub.vhd failed with 2 errors.
+=======
+# Reading pref.tcl
+# OpenFile {C:/Users/Louis/Desktop/cours epfl/ba3/Comparche/lab1/Tp1-Comparch/template/modelsim/alu.mpf}
+# Loading project alu
+# Compile of tb_logic_unit.vhd was successful.
+# Compile of tb_ALU.vhd failed with 3 errors.
+# Compile of shift_unit.vhd was successful.
+# Compile of add_sub.vhd failed with 1 errors.
+>>>>>>> 21b9847e0a25f859548b02e4392fd3f7ccb95fa9
 # Compile of ALU.vhd was successful.
 # Compile of comparator.vhd was successful.
 # Compile of logic_unit.vhd failed with 3 errors.
 # Compile of multiplexer.vhd was successful.
+<<<<<<< HEAD
 # 8 compiles, 3 failed with 8 errors.
+=======
+# 8 compiles, 3 failed with 7 errors.
+# Compile of tb_logic_unit.vhd was successful.
+# Compile of tb_ALU.vhd was successful.
+# Compile of shift_unit.vhd was successful.
+# Compile of add_sub.vhd failed with 1 errors.
+# Compile of ALU.vhd was successful.
+# Compile of comparator.vhd was successful.
+# Compile of logic_unit.vhd failed with 1 errors.
+# Compile of multiplexer.vhd was successful.
+# 8 compiles, 2 failed with 2 errors.
+# Compile of tb_logic_unit.vhd was successful.
+# Compile of tb_ALU.vhd was successful.
+# Compile of shift_unit.vhd was successful.
+# Compile of add_sub.vhd failed with 1 errors.
+# Compile of ALU.vhd was successful.
+# Compile of comparator.vhd was successful.
+# Compile of logic_unit.vhd was successful.
+# Compile of multiplexer.vhd was successful.
+# 8 compiles, 1 failed with 1 error.
+>>>>>>> 21b9847e0a25f859548b02e4392fd3f7ccb95fa9
