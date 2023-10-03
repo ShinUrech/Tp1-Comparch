@@ -1,0 +1,9 @@
+# Compile of tb_logic_unit.vhd was successful.
+# Compile of tb_ALU.vhd failed with 3 errors.
+# Compile of shift_unit.vhd was successful.
+# Compile of add_sub.vhd failed with 2 errors.
+# Compile of ALU.vhd was successful.
+# Compile of comparator.vhd was successful.
+# Compile of logic_unit.vhd failed with 3 errors.
+# Compile of multiplexer.vhd was successful.
+# 8 compiles, 3 failed with 8 errors.
