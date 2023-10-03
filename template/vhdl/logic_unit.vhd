@@ -12,4 +12,15 @@ end logic_unit;
 
 architecture synth of logic_unit is
 begin
+    alu:process(op)
+    begin
+        case op is
+            when "00" => r <= a nor b
+            when "01" => r <= a and b
+            when "10" => r <= a or b
+            when "11" => r <= a xor b
+        end case;
+    end process;
+
+
 end synth;
