@@ -497,3 +497,197 @@ run -all
 # Compile of multiplexer.vhd was successful.
 # 8 compiles, 0 failed with no errors.
 run -all
+# Compile of tb_logic_unit.vhd was successful.
+# Compile of tb_ALU.vhd was successful.
+# Compile of shift_unit.vhd was successful.
+# Compile of add_sub.vhd was successful.
+# Compile of ALU.vhd was successful.
+# Compile of comparator.vhd was successful.
+# Compile of logic_unit.vhd was successful.
+# Compile of multiplexer.vhd was successful.
+# 8 compiles, 0 failed with no errors.
+run -all
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_alu(bench)
+# Loading work.alu(bdf_type)
+# Loading work.add_sub(fast)
+# Loading work.comparator(fast)
+# Loading work.logic_unit(fast)
+# Loading work.multiplexer(fast)
+# Loading work.shift_unit(fast)
+# ** Warning: (vsim-8683) Uninitialized out port /tb_alu/alu_0/b2v_comparator_0/r has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /tb_alu/alu_0/b2v_multiplexer_0/o(31 downto 0) has no driver.
+# This port will contribute value (UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /tb_alu/alu_0/b2v_shift_unit_0/r(31 downto 0) has no driver.
+# This port will contribute value (UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU) to the signal network.
+run -all
+# GetModuleFileName: Le module spécifié est introuvable.
+# 
+# 
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /tb_alu/alu_0/b2v_add_sub_0
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 1  Instance: /tb_alu/alu_0/b2v_add_sub_0
+# ** Note: = Add/Sub test ===============================================================
+#    Time: 40 ns  Iteration: 0  Instance: /tb_alu
+# ** Error: Incorrect Behavior
+#    Time: 80 ns  Iteration: 0  Instance: /tb_alu
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-8683) Uninitialized out port /tb_alu/alu_0/b2v_comparator_0/r has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /tb_alu/alu_0/b2v_multiplexer_0/o(31 downto 0) has no driver.
+# This port will contribute value (UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /tb_alu/alu_0/b2v_shift_unit_0/r(31 downto 0) has no driver.
+# This port will contribute value (UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU) to the signal network.
+run -all
+# GetModuleFileName: Le module spécifié est introuvable.
+# 
+# 
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /tb_alu/alu_0/b2v_add_sub_0
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 1  Instance: /tb_alu/alu_0/b2v_add_sub_0
+# ** Note: = Add/Sub test ===============================================================
+#    Time: 40 ns  Iteration: 0  Instance: /tb_alu
+# ** Error: Incorrect Behavior
+#    Time: 80 ns  Iteration: 0  Instance: /tb_alu
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-8683) Uninitialized out port /tb_alu/alu_0/b2v_comparator_0/r has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /tb_alu/alu_0/b2v_multiplexer_0/o(31 downto 0) has no driver.
+# This port will contribute value (UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /tb_alu/alu_0/b2v_shift_unit_0/r(31 downto 0) has no driver.
+# This port will contribute value (UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU) to the signal network.
+run -all
+# GetModuleFileName: Le module spécifié est introuvable.
+# 
+# 
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /tb_alu/alu_0/b2v_add_sub_0
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 1  Instance: /tb_alu/alu_0/b2v_add_sub_0
+# ** Note: = Add/Sub test ===============================================================
+#    Time: 40 ns  Iteration: 0  Instance: /tb_alu
+# ** Error: Incorrect Behavior
+#    Time: 80 ns  Iteration: 0  Instance: /tb_alu
+# Compile of tb_logic_unit.vhd was successful.
+# Compile of tb_ALU.vhd was successful.
+# Compile of shift_unit.vhd was successful.
+# Compile of add_sub.vhd failed with 1 errors.
+# Compile of ALU.vhd was successful.
+# Compile of comparator.vhd was successful.
+# Compile of logic_unit.vhd was successful.
+# Compile of multiplexer.vhd was successful.
+# 8 compiles, 1 failed with 1 error.
+# Compile of tb_logic_unit.vhd was successful.
+# Compile of tb_ALU.vhd was successful.
+# Compile of shift_unit.vhd was successful.
+# Compile of add_sub.vhd failed with 2 errors.
+# Compile of ALU.vhd was successful.
+# Compile of comparator.vhd was successful.
+# Compile of logic_unit.vhd was successful.
+# Compile of multiplexer.vhd was successful.
+# 8 compiles, 1 failed with 2 errors.
+# Compile of tb_logic_unit.vhd was successful.
+# Compile of tb_ALU.vhd was successful.
+# Compile of shift_unit.vhd was successful.
+# Compile of add_sub.vhd failed with 1 errors.
+# Compile of ALU.vhd was successful.
+# Compile of comparator.vhd was successful.
+# Compile of logic_unit.vhd was successful.
+# Compile of multiplexer.vhd was successful.
+# 8 compiles, 1 failed with 1 error.
+# Compile of tb_logic_unit.vhd was successful.
+# Compile of tb_ALU.vhd was successful.
+# Compile of shift_unit.vhd was successful.
+# Compile of add_sub.vhd was successful.
+# Compile of ALU.vhd was successful.
+# Compile of comparator.vhd was successful.
+# Compile of logic_unit.vhd was successful.
+# Compile of multiplexer.vhd was successful.
+# 8 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_alu(bench)
+# Loading work.alu(bdf_type)
+# Loading work.add_sub(fast)
+# Loading work.comparator(fast)
+# Loading work.logic_unit(fast)
+# Loading work.multiplexer(fast)
+# Loading work.shift_unit(fast)
+# ** Warning: (vsim-8683) Uninitialized out port /tb_alu/alu_0/b2v_comparator_0/r has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /tb_alu/alu_0/b2v_multiplexer_0/o(31 downto 0) has no driver.
+# This port will contribute value (UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /tb_alu/alu_0/b2v_shift_unit_0/r(31 downto 0) has no driver.
+# This port will contribute value (UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU) to the signal network.
+run -all
+# GetModuleFileName: Le module spécifié est introuvable.
+# 
+# 
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /tb_alu/alu_0/b2v_add_sub_0
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 1  Instance: /tb_alu/alu_0/b2v_add_sub_0
+# ** Note: = Add/Sub test ===============================================================
+#    Time: 40 ns  Iteration: 0  Instance: /tb_alu
+# ** Error: Incorrect Behavior
+#    Time: 80 ns  Iteration: 0  Instance: /tb_alu
+# Compile of tb_logic_unit.vhd was successful.
+# Compile of tb_ALU.vhd was successful.
+# Compile of shift_unit.vhd was successful.
+# Compile of add_sub.vhd failed with 2 errors.
+# Compile of ALU.vhd was successful.
+# Compile of comparator.vhd was successful.
+# Compile of logic_unit.vhd was successful.
+# Compile of multiplexer.vhd was successful.
+# 8 compiles, 1 failed with 2 errors.
+# Compile of tb_logic_unit.vhd was successful.
+# Compile of tb_ALU.vhd was successful.
+# Compile of shift_unit.vhd was successful.
+# Compile of add_sub.vhd was successful.
+# Compile of ALU.vhd was successful.
+# Compile of comparator.vhd was successful.
+# Compile of logic_unit.vhd was successful.
+# Compile of multiplexer.vhd was successful.
+# 8 compiles, 0 failed with no errors.
+# Compile of tb_logic_unit.vhd was successful.
+# Compile of tb_ALU.vhd was successful.
+# Compile of shift_unit.vhd was successful.
+# Compile of add_sub.vhd failed with 2 errors.
+# Compile of ALU.vhd was successful.
+# Compile of comparator.vhd failed with 15 errors.
+# Compile of logic_unit.vhd was successful.
+# Compile of multiplexer.vhd was successful.
+# 8 compiles, 2 failed with 17 errors.
+# Compile of tb_logic_unit.vhd was successful.
+# Compile of tb_ALU.vhd was successful.
+# Compile of shift_unit.vhd was successful.
+# Compile of add_sub.vhd was successful.
+# Compile of ALU.vhd was successful.
+# Compile of comparator.vhd failed with 15 errors.
+# Compile of logic_unit.vhd was successful.
+# Compile of multiplexer.vhd was successful.
+# 8 compiles, 1 failed with 15 errors.
+# Compile of tb_logic_unit.vhd was successful.
+# Compile of tb_ALU.vhd was successful.
+# Compile of shift_unit.vhd was successful.
+# Compile of add_sub.vhd was successful.
+# Compile of ALU.vhd was successful.
+# Compile of comparator.vhd was successful.
+# Compile of logic_unit.vhd was successful.
+# Compile of multiplexer.vhd was successful.
+# 8 compiles, 0 failed with no errors.
+# Compile of tb_logic_unit.vhd was successful.
+# Compile of tb_ALU.vhd was successful.
+# Compile of shift_unit.vhd was successful.
+# Compile of add_sub.vhd was successful.
+# Compile of ALU.vhd was successful.
+# Compile of comparator.vhd was successful.
+# Compile of logic_unit.vhd was successful.
+# Compile of multiplexer.vhd was successful.
+# 8 compiles, 0 failed with no errors.
