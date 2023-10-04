@@ -1,5 +1,5 @@
-/modelsim
-/quartus
-/testbench
-/.settings
-/.vscode
+/modelsim/*
+/quartus/*
+/testbench/*
+/.settings/*
+/.vscode/*
