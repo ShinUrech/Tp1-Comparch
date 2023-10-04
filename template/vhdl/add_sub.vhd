@@ -11,10 +11,7 @@ entity add_sub is
         zero     : out std_logic;
         r        : out std_logic_vector(31 downto 0)
     );
-   signal s_b : signed(32 downto 0);
-    signal sum : std_logic_vector(32 downto 0);
-    signal sum_s : signed(32 downto 0);
-    signal a_s : signed(32 downto 0);
+    
 
 
 
@@ -22,13 +19,18 @@ entity add_sub is
 end add_sub;
 
 architecture synth of add_sub is
+signal s_b : unsigned(32 downto 0);
+signal sum : std_logic_vector(32 downto 0);
+signal sum_s : unsigned(32 downto 0);
+signal a_s : unsigned(32 downto 0);
+
 begin
-    s_b <= resize(signed(b), 33);
-    a_s <= resize(signed(a), 33);
+    s_b <= resize(unsigned(b), 33);
+    a_s <= resize(unsigned(a), 33);
 
 
-    sum_s <= signed(s_b xor (others => '1')) + a_s  + 1 when sub_mode = '1' 
-        else a_s + signed(s_b);
+    sum_s <= unsigned(s_b xor (32 downto 0 => '1')) + a_s  + 1 when sub_mode = '1' 
+        else a_s + s_b;
 
 
     r <= std_logic_vector(sum_s(31 downto 0));

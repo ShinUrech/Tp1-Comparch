@@ -2,23 +2,162 @@
 # OpenFile {C:/Users/Louis/Desktop/cours epfl/ba3/Comparche/lab1/Tp1-Comparch/template/modelsim/alu.mpf}
 # Loading project alu
 # Compile of tb_logic_unit.vhd was successful.
-# Compile of tb_ALU.vhd failed with 3 errors.
+# Compile of tb_ALU.vhd was successful.
 # Compile of shift_unit.vhd was successful.
-# Compile of add_sub.vhd failed with 1 errors.
+# Compile of add_sub.vhd was successful.
 # Compile of ALU.vhd was successful.
 # Compile of comparator.vhd was successful.
-# Compile of logic_unit.vhd failed with 3 errors.
+# Compile of logic_unit.vhd was successful.
 # Compile of multiplexer.vhd was successful.
-# 8 compiles, 3 failed with 7 errors.
+# 8 compiles, 0 failed with no errors.
+vsim -gui work.logic_unit
+# vsim -gui work.logic_unit 
+# Start time: 10:47:55 on Oct 04,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.logic_unit(fast)
+add wave sim:/logic_unit/*
+restart -f; run 600 ns
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# A time value could not be extracted from the current line
+run
+restart -f; run 600 ns
+run
+run -All
 # Compile of tb_logic_unit.vhd was successful.
 # Compile of tb_ALU.vhd was successful.
 # Compile of shift_unit.vhd was successful.
-# Compile of add_sub.vhd failed with 1 errors.
+# Compile of add_sub.vhd was successful.
 # Compile of ALU.vhd was successful.
 # Compile of comparator.vhd was successful.
-# Compile of logic_unit.vhd failed with 1 errors.
+# Compile of logic_unit.vhd was successful.
 # Compile of multiplexer.vhd was successful.
-# 8 compiles, 2 failed with 2 errors.
+# 8 compiles, 0 failed with no errors.
+# Compile of tb_logic_unit.vhd failed with 4 errors.
+# Compile of tb_ALU.vhd was successful.
+# Compile of shift_unit.vhd was successful.
+# Compile of add_sub.vhd was successful.
+# Compile of ALU.vhd was successful.
+# Compile of comparator.vhd was successful.
+# Compile of logic_unit.vhd was successful.
+# Compile of multiplexer.vhd was successful.
+# 8 compiles, 1 failed with 4 errors.
+# Compile of tb_logic_unit.vhd was successful.
+# Compile of tb_ALU.vhd was successful.
+# Compile of shift_unit.vhd was successful.
+# Compile of add_sub.vhd was successful.
+# Compile of ALU.vhd was successful.
+# Compile of comparator.vhd was successful.
+# Compile of logic_unit.vhd was successful.
+# Compile of multiplexer.vhd was successful.
+# 8 compiles, 0 failed with no errors.
+vsim -gui work.logic_unit
+# End time: 11:22:07 on Oct 04,2023, Elapsed time: 0:34:12
+# Errors: 0, Warnings: 4
+# vsim -gui work.logic_unit 
+# Start time: 11:22:07 on Oct 04,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.logic_unit(fast)
+vsim -gui work.logic_unit
+# End time: 11:23:29 on Oct 04,2023, Elapsed time: 0:01:22
+# Errors: 0, Warnings: 1
+# vsim -gui work.logic_unit 
+# Start time: 11:23:29 on Oct 04,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.logic_unit(fast)
+add wave sim:/logic_unit/*
+run -All
+run -all
+# Compile of tb_logic_unit.vhd was successful.
+# Compile of tb_ALU.vhd was successful.
+# Compile of shift_unit.vhd was successful.
+# Compile of add_sub.vhd was successful.
+# Compile of ALU.vhd was successful.
+# Compile of comparator.vhd was successful.
+# Compile of logic_unit.vhd was successful.
+# Compile of multiplexer.vhd was successful.
+# 8 compiles, 0 failed with no errors.
+vsim -gui work.tb_logic_unit
+# End time: 11:28:03 on Oct 04,2023, Elapsed time: 0:04:34
+# Errors: 0, Warnings: 2
+# vsim -gui work.tb_logic_unit 
+# Start time: 11:28:03 on Oct 04,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb_logic_unit(testbench)
+# Loading work.logic_unit(fast)
+add wave sim:/tb_logic_unit/*
+run -all
+# Compile of tb_logic_unit.vhd was successful.
+# Compile of tb_ALU.vhd was successful.
+# Compile of shift_unit.vhd was successful.
+# Compile of add_sub.vhd was successful.
+# Compile of ALU.vhd was successful.
+# Compile of comparator.vhd was successful.
+# Compile of logic_unit.vhd was successful.
+# Compile of multiplexer.vhd was successful.
+# 8 compiles, 0 failed with no errors.
+vsim -gui work.tb_alu
+# End time: 11:44:20 on Oct 04,2023, Elapsed time: 0:16:17
+# Errors: 0, Warnings: 2
+# vsim -gui work.tb_alu 
+# Start time: 11:44:20 on Oct 04,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_alu(bench)
+# Loading work.alu(bdf_type)
+# Loading work.add_sub(fast)
+# Loading work.comparator(fast)
+# Loading work.logic_unit(fast)
+# Loading work.multiplexer(fast)
+# Loading work.shift_unit(fast)
+# ** Warning: (vsim-8683) Uninitialized out port /tb_alu/alu_0/b2v_comparator_0/r has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /tb_alu/alu_0/b2v_multiplexer_0/o(31 downto 0) has no driver.
+# This port will contribute value (UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /tb_alu/alu_0/b2v_shift_unit_0/r(31 downto 0) has no driver.
+# This port will contribute value (UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU) to the signal network.
+add wave sim:/tb_alu/*
+run -all
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /tb_alu/alu_0/b2v_add_sub_0
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 1  Instance: /tb_alu/alu_0/b2v_add_sub_0
+# ** Note: = Add/Sub test ===============================================================
+#    Time: 40 ns  Iteration: 0  Instance: /tb_alu
+# ** Error: Incorrect Behavior
+#    Time: 80 ns  Iteration: 0  Instance: /tb_alu
+run -all
+run -all
+run -all
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-8683) Uninitialized out port /tb_alu/alu_0/b2v_comparator_0/r has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /tb_alu/alu_0/b2v_multiplexer_0/o(31 downto 0) has no driver.
+# This port will contribute value (UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /tb_alu/alu_0/b2v_shift_unit_0/r(31 downto 0) has no driver.
+# This port will contribute value (UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU) to the signal network.
+run -all
+# GetModuleFileName: Le module spécifié est introuvable.
+# 
+# 
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /tb_alu/alu_0/b2v_add_sub_0
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 1  Instance: /tb_alu/alu_0/b2v_add_sub_0
+# ** Note: = Add/Sub test ===============================================================
+#    Time: 40 ns  Iteration: 0  Instance: /tb_alu
+# ** Error: Incorrect Behavior
+#    Time: 80 ns  Iteration: 0  Instance: /tb_alu
 # Compile of tb_logic_unit.vhd was successful.
 # Compile of tb_ALU.vhd was successful.
 # Compile of shift_unit.vhd was successful.
@@ -28,3 +167,333 @@
 # Compile of logic_unit.vhd was successful.
 # Compile of multiplexer.vhd was successful.
 # 8 compiles, 1 failed with 1 error.
+# Compile of tb_logic_unit.vhd was successful.
+# Compile of tb_ALU.vhd was successful.
+# Compile of shift_unit.vhd was successful.
+# Compile of add_sub.vhd was successful.
+# Compile of ALU.vhd was successful.
+# Compile of comparator.vhd was successful.
+# Compile of logic_unit.vhd was successful.
+# Compile of multiplexer.vhd was successful.
+# 8 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_alu(bench)
+# Loading work.alu(bdf_type)
+# Loading work.add_sub(fast)
+# Loading work.comparator(fast)
+# Loading work.logic_unit(fast)
+# Loading work.multiplexer(fast)
+# Loading work.shift_unit(fast)
+# ** Warning: (vsim-8683) Uninitialized out port /tb_alu/alu_0/b2v_comparator_0/r has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /tb_alu/alu_0/b2v_multiplexer_0/o(31 downto 0) has no driver.
+# This port will contribute value (UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /tb_alu/alu_0/b2v_shift_unit_0/r(31 downto 0) has no driver.
+# This port will contribute value (UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU) to the signal network.
+run -all
+# GetModuleFileName: Le module spécifié est introuvable.
+# 
+# 
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /tb_alu/alu_0/b2v_add_sub_0
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 1  Instance: /tb_alu/alu_0/b2v_add_sub_0
+# ** Note: = Add/Sub test ===============================================================
+#    Time: 40 ns  Iteration: 0  Instance: /tb_alu
+# ** Error: Incorrect Behavior
+#    Time: 80 ns  Iteration: 0  Instance: /tb_alu
+# Compile of tb_logic_unit.vhd was successful.
+# Compile of tb_ALU.vhd was successful.
+# Compile of shift_unit.vhd was successful.
+# Compile of add_sub.vhd failed with 8 errors.
+# Compile of ALU.vhd was successful.
+# Compile of comparator.vhd was successful.
+# Compile of logic_unit.vhd was successful.
+# Compile of multiplexer.vhd was successful.
+# 8 compiles, 1 failed with 8 errors.
+# Compile of tb_logic_unit.vhd was successful.
+# Compile of tb_ALU.vhd was successful.
+# Compile of shift_unit.vhd was successful.
+# Compile of add_sub.vhd failed with 8 errors.
+# Compile of ALU.vhd was successful.
+# Compile of comparator.vhd was successful.
+# Compile of logic_unit.vhd was successful.
+# Compile of multiplexer.vhd was successful.
+# 8 compiles, 1 failed with 8 errors.
+# Compile of tb_logic_unit.vhd was successful.
+# Compile of tb_ALU.vhd was successful.
+# Compile of shift_unit.vhd was successful.
+# Compile of add_sub.vhd failed with 4 errors.
+# Compile of ALU.vhd was successful.
+# Compile of comparator.vhd was successful.
+# Compile of logic_unit.vhd was successful.
+# Compile of multiplexer.vhd was successful.
+# 8 compiles, 1 failed with 4 errors.
+# Compile of tb_logic_unit.vhd was successful.
+# Compile of tb_ALU.vhd was successful.
+# Compile of shift_unit.vhd was successful.
+# Compile of add_sub.vhd failed with 9 errors.
+# Compile of ALU.vhd was successful.
+# Compile of comparator.vhd was successful.
+# Compile of logic_unit.vhd was successful.
+# Compile of multiplexer.vhd was successful.
+# 8 compiles, 1 failed with 9 errors.
+# Compile of tb_logic_unit.vhd was successful.
+# Compile of tb_ALU.vhd was successful.
+# Compile of shift_unit.vhd was successful.
+# Compile of add_sub.vhd failed with 5 errors.
+# Compile of ALU.vhd was successful.
+# Compile of comparator.vhd was successful.
+# Compile of logic_unit.vhd was successful.
+# Compile of multiplexer.vhd was successful.
+# 8 compiles, 1 failed with 5 errors.
+# Compile of tb_logic_unit.vhd was successful.
+# Compile of tb_ALU.vhd was successful.
+# Compile of shift_unit.vhd was successful.
+# Compile of add_sub.vhd failed with 5 errors.
+# Compile of ALU.vhd was successful.
+# Compile of comparator.vhd was successful.
+# Compile of logic_unit.vhd was successful.
+# Compile of multiplexer.vhd was successful.
+# 8 compiles, 1 failed with 5 errors.
+# Compile of tb_logic_unit.vhd was successful.
+# Compile of tb_ALU.vhd was successful.
+# Compile of shift_unit.vhd was successful.
+# Compile of add_sub.vhd failed with 5 errors.
+# Compile of ALU.vhd was successful.
+# Compile of comparator.vhd was successful.
+# Compile of logic_unit.vhd was successful.
+# Compile of multiplexer.vhd was successful.
+# 8 compiles, 1 failed with 5 errors.
+# Compile of tb_logic_unit.vhd was successful.
+# Compile of tb_ALU.vhd was successful.
+# Compile of shift_unit.vhd was successful.
+# Compile of add_sub.vhd failed with 4 errors.
+# Compile of ALU.vhd was successful.
+# Compile of comparator.vhd was successful.
+# Compile of logic_unit.vhd was successful.
+# Compile of multiplexer.vhd was successful.
+# 8 compiles, 1 failed with 4 errors.
+# Compile of tb_logic_unit.vhd was successful.
+# Compile of tb_ALU.vhd was successful.
+# Compile of shift_unit.vhd was successful.
+# Compile of add_sub.vhd failed with 1 errors.
+# Compile of ALU.vhd was successful.
+# Compile of comparator.vhd was successful.
+# Compile of logic_unit.vhd was successful.
+# Compile of multiplexer.vhd was successful.
+# 8 compiles, 1 failed with 1 error.
+# Compile of tb_logic_unit.vhd was successful.
+# Compile of tb_ALU.vhd was successful.
+# Compile of shift_unit.vhd was successful.
+# Compile of add_sub.vhd failed with 7 errors.
+# Compile of ALU.vhd was successful.
+# Compile of comparator.vhd was successful.
+# Compile of logic_unit.vhd was successful.
+# Compile of multiplexer.vhd was successful.
+# 8 compiles, 1 failed with 7 errors.
+# Compile of tb_logic_unit.vhd was successful.
+# Compile of tb_ALU.vhd was successful.
+# Compile of shift_unit.vhd was successful.
+# Compile of add_sub.vhd failed with 7 errors.
+# Compile of ALU.vhd was successful.
+# Compile of comparator.vhd was successful.
+# Compile of logic_unit.vhd was successful.
+# Compile of multiplexer.vhd was successful.
+# 8 compiles, 1 failed with 7 errors.
+# Compile of tb_logic_unit.vhd was successful.
+# Compile of tb_ALU.vhd was successful.
+# Compile of shift_unit.vhd was successful.
+# Compile of add_sub.vhd failed with 7 errors.
+# Compile of ALU.vhd was successful.
+# Compile of comparator.vhd was successful.
+# Compile of logic_unit.vhd was successful.
+# Compile of multiplexer.vhd was successful.
+# 8 compiles, 1 failed with 7 errors.
+# Compile of tb_logic_unit.vhd was successful.
+# Compile of tb_ALU.vhd was successful.
+# Compile of shift_unit.vhd was successful.
+# Compile of add_sub.vhd failed with 11 errors.
+# Compile of ALU.vhd was successful.
+# Compile of comparator.vhd was successful.
+# Compile of logic_unit.vhd was successful.
+# Compile of multiplexer.vhd was successful.
+# 8 compiles, 1 failed with 11 errors.
+# Compile of tb_logic_unit.vhd was successful.
+# Compile of tb_ALU.vhd was successful.
+# Compile of shift_unit.vhd was successful.
+# Compile of add_sub.vhd failed with 6 errors.
+# Compile of ALU.vhd was successful.
+# Compile of comparator.vhd was successful.
+# Compile of logic_unit.vhd was successful.
+# Compile of multiplexer.vhd was successful.
+# 8 compiles, 1 failed with 6 errors.
+# Compile of tb_logic_unit.vhd was successful.
+# Compile of tb_ALU.vhd was successful.
+# Compile of shift_unit.vhd was successful.
+# Compile of add_sub.vhd failed with 5 errors.
+# Compile of ALU.vhd was successful.
+# Compile of comparator.vhd was successful.
+# Compile of logic_unit.vhd was successful.
+# Compile of multiplexer.vhd was successful.
+# 8 compiles, 1 failed with 5 errors.
+# Compile of tb_logic_unit.vhd was successful.
+# Compile of tb_ALU.vhd was successful.
+# Compile of shift_unit.vhd was successful.
+# Compile of add_sub.vhd failed with 4 errors.
+# Compile of ALU.vhd was successful.
+# Compile of comparator.vhd was successful.
+# Compile of logic_unit.vhd was successful.
+# Compile of multiplexer.vhd was successful.
+# 8 compiles, 1 failed with 4 errors.
+# Compile of tb_logic_unit.vhd was successful.
+# Compile of tb_ALU.vhd was successful.
+# Compile of shift_unit.vhd was successful.
+# Compile of add_sub.vhd was successful with warnings.
+# Compile of ALU.vhd was successful.
+# Compile of comparator.vhd was successful.
+# Compile of logic_unit.vhd was successful.
+# Compile of multiplexer.vhd was successful.
+# 8 compiles, 0 failed with no errors.
+# Load canceled
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_alu(bench)
+# Loading work.alu(bdf_type)
+# Loading work.add_sub(fast)
+# Loading work.comparator(fast)
+# Loading work.logic_unit(fast)
+# Loading work.multiplexer(fast)
+# Loading work.shift_unit(fast)
+# ** Warning: (vsim-8683) Uninitialized out port /tb_alu/alu_0/b2v_comparator_0/r has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /tb_alu/alu_0/b2v_multiplexer_0/o(31 downto 0) has no driver.
+# This port will contribute value (UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /tb_alu/alu_0/b2v_shift_unit_0/r(31 downto 0) has no driver.
+# This port will contribute value (UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU) to the signal network.
+run -all
+# GetModuleFileName: Le module spécifié est introuvable.
+# 
+# 
+# ** Fatal: (vsim-3420) Array lengths do not match. Left is 33 (32 downto 0). Right is 32 (31 downto 0).
+#    Time: 0 ps  Iteration: 0  Process: /tb_alu/alu_0/b2v_add_sub_0/line__26 File: C:/Users/Louis/Desktop/cours epfl/ba3/Comparche/lab1/Tp1-Comparch/template/vhdl/add_sub.vhd
+# Fatal error in Architecture synth at C:/Users/Louis/Desktop/cours epfl/ba3/Comparche/lab1/Tp1-Comparch/template/vhdl/add_sub.vhd line 26
+# 
+# HDL call sequence:
+# Stopped at C:/Users/Louis/Desktop/cours epfl/ba3/Comparche/lab1/Tp1-Comparch/template/vhdl/add_sub.vhd 26 Architecture synth
+# 
+# Compile of tb_logic_unit.vhd was successful.
+# Compile of tb_ALU.vhd was successful.
+# Compile of shift_unit.vhd was successful.
+# Compile of add_sub.vhd was successful with warnings.
+# Compile of ALU.vhd was successful.
+# Compile of comparator.vhd was successful.
+# Compile of logic_unit.vhd was successful.
+# Compile of multiplexer.vhd was successful.
+# 8 compiles, 0 failed with no errors.
+run -all
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at C:/Users/Louis/Desktop/cours epfl/ba3/Comparche/lab1/Tp1-Comparch/template/vhdl/add_sub.vhd 26 Architecture synth
+# 
+# Compile of tb_logic_unit.vhd was successful.
+# Compile of tb_ALU.vhd was successful.
+# Compile of shift_unit.vhd was successful.
+# Compile of add_sub.vhd failed with 1 errors.
+# Compile of ALU.vhd was successful.
+# Compile of comparator.vhd was successful.
+# Compile of logic_unit.vhd was successful.
+# Compile of multiplexer.vhd was successful.
+# 8 compiles, 1 failed with 1 error.
+# Compile of tb_logic_unit.vhd was successful.
+# Compile of tb_ALU.vhd was successful.
+# Compile of shift_unit.vhd was successful.
+# Compile of add_sub.vhd was successful.
+# Compile of ALU.vhd was successful.
+# Compile of comparator.vhd was successful.
+# Compile of logic_unit.vhd was successful.
+# Compile of multiplexer.vhd was successful.
+# 8 compiles, 0 failed with no errors.
+run -all
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at C:/Users/Louis/Desktop/cours epfl/ba3/Comparche/lab1/Tp1-Comparch/template/vhdl/add_sub.vhd 26 Architecture synth
+# 
+# Compile of tb_logic_unit.vhd was successful.
+# Compile of tb_ALU.vhd was successful.
+# Compile of shift_unit.vhd was successful.
+# Compile of add_sub.vhd was successful.
+# Compile of ALU.vhd was successful.
+# Compile of comparator.vhd was successful.
+# Compile of logic_unit.vhd was successful.
+# Compile of multiplexer.vhd was successful.
+# 8 compiles, 0 failed with no errors.
+run -all
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at C:/Users/Louis/Desktop/cours epfl/ba3/Comparche/lab1/Tp1-Comparch/template/vhdl/add_sub.vhd 26 Architecture synth
+# 
+vsim -gui work.tb_logic_unit
+# End time: 15:12:11 on Oct 04,2023, Elapsed time: 3:27:51
+# Errors: 1, Warnings: 8
+# vsim -gui work.tb_logic_unit 
+# Start time: 15:12:11 on Oct 04,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb_logic_unit(testbench)
+# Loading work.logic_unit(fast)
+add wave sim:/tb_logic_unit/*
+run -all
+vsim -gui work.tb_alu
+# End time: 15:12:52 on Oct 04,2023, Elapsed time: 0:00:41
+# Errors: 0, Warnings: 1
+# vsim -gui work.tb_alu 
+# Start time: 15:12:52 on Oct 04,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_alu(bench)
+# Loading work.alu(bdf_type)
+# Loading work.add_sub(fast)
+# Loading work.comparator(fast)
+# Loading work.logic_unit(fast)
+# Loading work.multiplexer(fast)
+# Loading work.shift_unit(fast)
+# ** Warning: (vsim-8683) Uninitialized out port /tb_alu/alu_0/b2v_comparator_0/r has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /tb_alu/alu_0/b2v_multiplexer_0/o(31 downto 0) has no driver.
+# This port will contribute value (UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /tb_alu/alu_0/b2v_shift_unit_0/r(31 downto 0) has no driver.
+# This port will contribute value (UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU) to the signal network.
+add wave sim:/tb_alu/*
+run -all
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /tb_alu/alu_0/b2v_add_sub_0
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 1  Instance: /tb_alu/alu_0/b2v_add_sub_0
+# ** Note: = Add/Sub test ===============================================================
+#    Time: 40 ns  Iteration: 0  Instance: /tb_alu
+# ** Error: Incorrect Behavior
+#    Time: 80 ns  Iteration: 0  Instance: /tb_alu
+# Compile of tb_logic_unit.vhd was successful.
+# Compile of tb_ALU.vhd was successful.
+# Compile of shift_unit.vhd was successful.
+# Compile of tb_logic_unit.vhd was successful with warnings.
+# Compile of tb_ALU.vhd was successful.
+# Compile of shift_unit.vhd was successful.
+# Compile of add_sub.vhd was successful.
+# Compile of ALU.vhd was successful.
+# Compile of comparator.vhd was successful.
+# Compile of logic_unit.vhd was successful.
+# Compile of multiplexer.vhd was successful.
+# 8 compiles, 0 failed with no errors.
+# Compile of add_sub.vhd was successful.
+# Compile of ALU.vhd was successful.
+# Compile of comparator.vhd was successful.
+# Compile of logic_unit.vhd was successful.
+# Compile of multiplexer.vhd was successful.
+# 8 compiles, 0 failed with no errors.
+run -all

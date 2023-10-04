@@ -10,339 +10,337 @@ z2
 cModel Technology
 dC:/Template/modelsim
 Eadd_sub
-Z0 w1696343865
+Z0 w1696425076
 Z1 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
 Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
-!i122 19
+!i122 277
 Z4 dC:/Users/Louis/Desktop/cours epfl/ba3/Comparche/lab1/Tp1-Comparch/template/modelsim
-8C:/Users/Louis/Desktop/cours epfl/ba3/Comparche/lab1/Tp1-Comparch/template/vhdl/add_sub.vhd
-FC:/Users/Louis/Desktop/cours epfl/ba3/Comparche/lab1/Tp1-Comparch/template/vhdl/add_sub.vhd
+Z5 8C:/Users/Louis/Desktop/cours epfl/ba3/Comparche/lab1/Tp1-Comparch/template/vhdl/add_sub.vhd
+Z6 FC:/Users/Louis/Desktop/cours epfl/ba3/Comparche/lab1/Tp1-Comparch/template/vhdl/add_sub.vhd
 l0
 L5 1
-V=hN3;Cm^RF8Lo;lhdKzR02
-!s100 8kBGS4fOC91U;8hJb=5D;3
-Z5 OV;C;2020.1;71
+VgGM6nGl?@dHM67mF[2N7Y1
+!s100 j_^<D<[0HU>C?KDgIze[=0
+Z7 OV;C;2020.1;71
 32
-Z6 !s110 1696344296
+Z8 !s110 1696425196
 !i10b 1
-Z7 !s108 1696344296.000000
-!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Louis/Desktop/cours epfl/ba3/Comparche/lab1/Tp1-Comparch/template/vhdl/add_sub.vhd|
-!s107 C:/Users/Louis/Desktop/cours epfl/ba3/Comparche/lab1/Tp1-Comparch/template/vhdl/add_sub.vhd|
+Z9 !s108 1696425196.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Louis/Desktop/cours epfl/ba3/Comparche/lab1/Tp1-Comparch/template/vhdl/add_sub.vhd|
+Z11 !s107 C:/Users/Louis/Desktop/cours epfl/ba3/Comparche/lab1/Tp1-Comparch/template/vhdl/add_sub.vhd|
 !i113 1
-Z8 o-work work -2002 -explicit
-Z9 tExplicit 1 CvgOpt 0
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
 Asynth
-DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
-R2
-DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
-DEx4 work 7 add_sub 0 22 m1AZZBaQ<eh]J`diC=eE:3
-l17
-L16
-V5]boSP83jbjd_KE6^TcE=2
-!s100 dAFPIQA;aX;G3a[HYOmjc2
-OV;C;10.4d;61
-32
-!s110 1506954014
-!i10b 1
-!s108 1506954014.000000
-!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/HP PC/Downloads/alu-2/vhdl/add_sub.vhd|
-!s107 C:/Users/HP PC/Downloads/alu-2/vhdl/add_sub.vhd|
-!i113 1
-R8
-tExplicit 1
-dC:/Users/HP PC/Downloads/alu-2/modelsim
-FC:/Users/HP PC/Downloads/alu-2/vhdl/add_sub.vhd
-8C:/Users/HP PC/Downloads/alu-2/vhdl/add_sub.vhd
-Ealu
-R0
+R1
 R2
 R3
-!i122 20
+DEx4 work 7 add_sub 0 22 gGM6nGl?@dHM67mF[2N7Y1
+!i122 277
+l27
+L21 22
+V60ScVH[Pb^iYmWm4]KB[U0
+!s100 X;aD3DebLEX8`5iH2VhKO3
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Ealu
+Z14 w1696343865
+R2
+R3
+!i122 282
 R4
-Z10 8C:/Users/Louis/Desktop/cours epfl/ba3/Comparche/lab1/Tp1-Comparch/template/vhdl/ALU.vhd
-Z11 FC:/Users/Louis/Desktop/cours epfl/ba3/Comparche/lab1/Tp1-Comparch/template/vhdl/ALU.vhd
+Z15 8C:/Users/Louis/Desktop/cours epfl/ba3/Comparche/lab1/Tp1-Comparch/template/vhdl/ALU.vhd
+Z16 FC:/Users/Louis/Desktop/cours epfl/ba3/Comparche/lab1/Tp1-Comparch/template/vhdl/ALU.vhd
 l0
 L24 1
 VLIV0?b]kCZ40<iPbTC=4:2
 !s100 O`l`Xc5c_V9`dzon<W_fQ2
-R5
-32
-R6
-!i10b 1
 R7
-Z12 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Louis/Desktop/cours epfl/ba3/Comparche/lab1/Tp1-Comparch/template/vhdl/ALU.vhd|
-Z13 !s107 C:/Users/Louis/Desktop/cours epfl/ba3/Comparche/lab1/Tp1-Comparch/template/vhdl/ALU.vhd|
-!i113 1
+32
 R8
+!i10b 1
 R9
+Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Louis/Desktop/cours epfl/ba3/Comparche/lab1/Tp1-Comparch/template/vhdl/ALU.vhd|
+Z18 !s107 C:/Users/Louis/Desktop/cours epfl/ba3/Comparche/lab1/Tp1-Comparch/template/vhdl/ALU.vhd|
+!i113 1
+R12
+R13
 Abdf_type
 R2
 R3
-Z14 DEx4 work 3 alu 0 22 LIV0?b]kCZ40<iPbTC=4:2
-!i122 20
+Z19 DEx4 work 3 alu 0 22 LIV0?b]kCZ40<iPbTC=4:2
+!i122 282
 l91
 L34 106
 Vn7Jhlm<g3=Igo4gAY0?Z=3
 !s100 ao^@A8=RSg[FW?jY:[EXI0
-R5
-32
-R6
-!i10b 1
 R7
+32
+R8
+!i10b 1
+R9
+R17
+R18
+!i113 1
 R12
 R13
-!i113 1
-R8
-R9
 Ecomparator
-R0
+R14
 R2
 R3
-!i122 21
+!i122 283
 R4
-Z15 8C:/Users/Louis/Desktop/cours epfl/ba3/Comparche/lab1/Tp1-Comparch/template/vhdl/comparator.vhd
-Z16 FC:/Users/Louis/Desktop/cours epfl/ba3/Comparche/lab1/Tp1-Comparch/template/vhdl/comparator.vhd
+Z20 8C:/Users/Louis/Desktop/cours epfl/ba3/Comparche/lab1/Tp1-Comparch/template/vhdl/comparator.vhd
+Z21 FC:/Users/Louis/Desktop/cours epfl/ba3/Comparche/lab1/Tp1-Comparch/template/vhdl/comparator.vhd
 l0
 L4 1
 V3WXakLjKGIMC9fTC_zAJG3
 !s100 XTWoF>RX1>LcmLLBBo;N:0
-R5
-32
-R6
-!i10b 1
 R7
-Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Louis/Desktop/cours epfl/ba3/Comparche/lab1/Tp1-Comparch/template/vhdl/comparator.vhd|
-Z18 !s107 C:/Users/Louis/Desktop/cours epfl/ba3/Comparche/lab1/Tp1-Comparch/template/vhdl/comparator.vhd|
-!i113 1
+32
 R8
+!i10b 1
 R9
+Z22 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Louis/Desktop/cours epfl/ba3/Comparche/lab1/Tp1-Comparch/template/vhdl/comparator.vhd|
+Z23 !s107 C:/Users/Louis/Desktop/cours epfl/ba3/Comparche/lab1/Tp1-Comparch/template/vhdl/comparator.vhd|
+!i113 1
+R12
+R13
 Asynth
 R2
 R3
 DEx4 work 10 comparator 0 22 3WXakLjKGIMC9fTC_zAJG3
-!i122 21
+!i122 283
 l17
 L16 3
 V4H[>NIZHB;1056V@R2LH31
 !s100 W_^:E1=WQ7kN:@Y9W>e1W2
-R5
-32
-R6
-!i10b 1
 R7
-R17
-R18
-!i113 1
+32
 R8
+!i10b 1
 R9
+R22
+R23
+!i113 1
+R12
+R13
 Elogic_unit
-Z19 w1696344287
+Z24 w1696411260
 R2
 R3
-!i122 22
+!i122 284
 R4
-Z20 8C:/Users/Louis/Desktop/cours epfl/ba3/Comparche/lab1/Tp1-Comparch/template/vhdl/logic_unit.vhd
-Z21 FC:/Users/Louis/Desktop/cours epfl/ba3/Comparche/lab1/Tp1-Comparch/template/vhdl/logic_unit.vhd
+Z25 8C:/Users/Louis/Desktop/cours epfl/ba3/Comparche/lab1/Tp1-Comparch/template/vhdl/logic_unit.vhd
+Z26 FC:/Users/Louis/Desktop/cours epfl/ba3/Comparche/lab1/Tp1-Comparch/template/vhdl/logic_unit.vhd
 l0
 L4 1
 VfUEL39DQfcR_XLk:Hoe<f3
 !s100 UJioXKUg8XUULGTSe2WE20
-R5
-32
-R6
-!i10b 1
 R7
-Z22 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Louis/Desktop/cours epfl/ba3/Comparche/lab1/Tp1-Comparch/template/vhdl/logic_unit.vhd|
-Z23 !s107 C:/Users/Louis/Desktop/cours epfl/ba3/Comparche/lab1/Tp1-Comparch/template/vhdl/logic_unit.vhd|
+32
+Z27 !s110 1696425197
+!i10b 1
+Z28 !s108 1696425197.000000
+Z29 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Louis/Desktop/cours epfl/ba3/Comparche/lab1/Tp1-Comparch/template/vhdl/logic_unit.vhd|
+Z30 !s107 C:/Users/Louis/Desktop/cours epfl/ba3/Comparche/lab1/Tp1-Comparch/template/vhdl/logic_unit.vhd|
 !i113 1
-R8
-R9
+R12
+R13
 Asynth
 R2
 R3
 DEx4 work 10 logic_unit 0 22 fUEL39DQfcR_XLk:Hoe<f3
-!i122 22
+!i122 284
 l14
 L13 15
-V5cMQ1U5BXh7R]J1emX:Ri0
-!s100 ]E>[KeH_[HW5@eGneL:PJ0
-R5
-32
-R6
-!i10b 1
+VNUD8aNWg?bOgX8YBESkIF2
+!s100 [eaiV1JTIQE@QR5PK:Cf]0
 R7
-R22
-R23
+32
+R27
+!i10b 1
+R28
+R29
+R30
 !i113 1
-R8
-R9
+R12
+R13
 Emultiplexer
-R0
+R14
 R2
 R3
-!i122 23
+!i122 285
 R4
-Z24 8C:/Users/Louis/Desktop/cours epfl/ba3/Comparche/lab1/Tp1-Comparch/template/vhdl/multiplexer.vhd
-Z25 FC:/Users/Louis/Desktop/cours epfl/ba3/Comparche/lab1/Tp1-Comparch/template/vhdl/multiplexer.vhd
+Z31 8C:/Users/Louis/Desktop/cours epfl/ba3/Comparche/lab1/Tp1-Comparch/template/vhdl/multiplexer.vhd
+Z32 FC:/Users/Louis/Desktop/cours epfl/ba3/Comparche/lab1/Tp1-Comparch/template/vhdl/multiplexer.vhd
 l0
 L4 1
 V4iH6`nZgBAHVia??bJk>G2
 !s100 UDM^5ga=kb9Z[=K^]bghV0
-R5
-32
-R6
-!i10b 1
 R7
-Z26 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Louis/Desktop/cours epfl/ba3/Comparche/lab1/Tp1-Comparch/template/vhdl/multiplexer.vhd|
-Z27 !s107 C:/Users/Louis/Desktop/cours epfl/ba3/Comparche/lab1/Tp1-Comparch/template/vhdl/multiplexer.vhd|
+32
+R27
+!i10b 1
+R28
+Z33 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Louis/Desktop/cours epfl/ba3/Comparche/lab1/Tp1-Comparch/template/vhdl/multiplexer.vhd|
+Z34 !s107 C:/Users/Louis/Desktop/cours epfl/ba3/Comparche/lab1/Tp1-Comparch/template/vhdl/multiplexer.vhd|
 !i113 1
-R8
-R9
+R12
+R13
 Asynth
 R2
 R3
-Z28 DEx4 work 11 multiplexer 0 22 4iH6`nZgBAHVia??bJk>G2
-!i122 23
+Z35 DEx4 work 11 multiplexer 0 22 4iH6`nZgBAHVia??bJk>G2
+!i122 285
 l16
-Z29 L15 3
-Z30 Vmk9zz^U@z1=hb;Kf7`dSX1
-Z31 !s100 KX<nS<K?;@a;0?GJm8`iR2
-R5
-32
-R6
-!i10b 1
+Z36 L15 3
+Z37 Vmk9zz^U@z1=hb;Kf7`dSX1
+Z38 !s100 KX<nS<K?;@a;0?GJm8`iR2
 R7
-R26
+32
 R27
+!i10b 1
+R28
+R33
+R34
 !i113 1
-R8
-R9
+R12
+R13
 Eshift_unit
-R0
+R14
 R1
 R2
 R3
-!i122 18
+!i122 276
 R4
-Z32 8C:/Users/Louis/Desktop/cours epfl/ba3/Comparche/lab1/Tp1-Comparch/template/vhdl/shift_unit.vhd
-Z33 FC:/Users/Louis/Desktop/cours epfl/ba3/Comparche/lab1/Tp1-Comparch/template/vhdl/shift_unit.vhd
+Z39 8C:/Users/Louis/Desktop/cours epfl/ba3/Comparche/lab1/Tp1-Comparch/template/vhdl/shift_unit.vhd
+Z40 FC:/Users/Louis/Desktop/cours epfl/ba3/Comparche/lab1/Tp1-Comparch/template/vhdl/shift_unit.vhd
 l0
 L5 1
 VoYz=ZP:Rg2U9Eb=ZGo>940
 !s100 C4@E7NN0:UB89P^MW405S0
-R5
-32
-R6
-!i10b 1
 R7
-Z34 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Louis/Desktop/cours epfl/ba3/Comparche/lab1/Tp1-Comparch/template/vhdl/shift_unit.vhd|
-Z35 !s107 C:/Users/Louis/Desktop/cours epfl/ba3/Comparche/lab1/Tp1-Comparch/template/vhdl/shift_unit.vhd|
-!i113 1
+32
 R8
+!i10b 1
 R9
+Z41 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Louis/Desktop/cours epfl/ba3/Comparche/lab1/Tp1-Comparch/template/vhdl/shift_unit.vhd|
+Z42 !s107 C:/Users/Louis/Desktop/cours epfl/ba3/Comparche/lab1/Tp1-Comparch/template/vhdl/shift_unit.vhd|
+!i113 1
+R12
+R13
 Asynth
 R1
 R2
 R3
 DEx4 work 10 shift_unit 0 22 oYz=ZP:Rg2U9Eb=ZGo>940
-!i122 18
+!i122 276
 l15
 L14 3
 V@nFV=K3:Z_d6IjB;3@zU;3
 !s100 [321mfnCdb31EL<HVmGPL3
-R5
-32
-R6
-!i10b 1
 R7
-R34
-R35
-!i113 1
+32
 R8
+!i10b 1
 R9
+R41
+R42
+!i113 1
+R12
+R13
 Etb_alu
-R0
-R1
-R2
-R3
-!i122 17
-R4
-Z36 8C:/Users/Louis/Desktop/cours epfl/ba3/Comparche/lab1/Tp1-Comparch/template/testbench/tb_ALU.vhd
-Z37 FC:/Users/Louis/Desktop/cours epfl/ba3/Comparche/lab1/Tp1-Comparch/template/testbench/tb_ALU.vhd
-l0
-L5 1
-VPC4a2j0Z@h07SO>N@?M3X3
-!s100 h4gR^9UUSFUJBW2hl@TTO2
-R5
-32
-R6
-!i10b 1
-R7
-Z38 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Louis/Desktop/cours epfl/ba3/Comparche/lab1/Tp1-Comparch/template/testbench/tb_ALU.vhd|
-Z39 !s107 C:/Users/Louis/Desktop/cours epfl/ba3/Comparche/lab1/Tp1-Comparch/template/testbench/tb_ALU.vhd|
-!i113 1
-R8
-R9
-Abench
 R14
 R1
 R2
 R3
+!i122 275
+R4
+Z43 8C:/Users/Louis/Desktop/cours epfl/ba3/Comparche/lab1/Tp1-Comparch/template/testbench/tb_ALU.vhd
+Z44 FC:/Users/Louis/Desktop/cours epfl/ba3/Comparche/lab1/Tp1-Comparch/template/testbench/tb_ALU.vhd
+l0
+L5 1
+VPC4a2j0Z@h07SO>N@?M3X3
+!s100 h4gR^9UUSFUJBW2hl@TTO2
+R7
+32
+R8
+!i10b 1
+R9
+Z45 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Louis/Desktop/cours epfl/ba3/Comparche/lab1/Tp1-Comparch/template/testbench/tb_ALU.vhd|
+Z46 !s107 C:/Users/Louis/Desktop/cours epfl/ba3/Comparche/lab1/Tp1-Comparch/template/testbench/tb_ALU.vhd|
+!i113 1
+R12
+R13
+Abench
+R19
+R1
+R2
+R3
 DEx4 work 6 tb_alu 0 22 PC4a2j0Z@h07SO>N@?M3X3
-!i122 17
+!i122 275
 l12
 L8 134
 Vhd`ZgF5`aaZoNaT;0a^R_2
 !s100 7<eBm;d1bT1]MHSSK<:<d2
-R5
-32
-R6
-!i10b 1
 R7
-R38
-R39
-!i113 1
+32
 R8
+!i10b 1
 R9
+R45
+R46
+!i113 1
+R12
+R13
 Etb_logic_unit
-R0
+Z47 w1696411302
 R2
 R3
-!i122 16
+!i122 274
 R4
-Z40 8C:/Users/Louis/Desktop/cours epfl/ba3/Comparche/lab1/Tp1-Comparch/template/testbench/tb_logic_unit.vhd
-Z41 FC:/Users/Louis/Desktop/cours epfl/ba3/Comparche/lab1/Tp1-Comparch/template/testbench/tb_logic_unit.vhd
+Z48 8C:/Users/Louis/Desktop/cours epfl/ba3/Comparche/lab1/Tp1-Comparch/template/testbench/tb_logic_unit.vhd
+Z49 FC:/Users/Louis/Desktop/cours epfl/ba3/Comparche/lab1/Tp1-Comparch/template/testbench/tb_logic_unit.vhd
 l0
 L4 1
 V56]=9U8E_0^hnOWE8_kak0
 !s100 I0S6Z^F^OTJKf4O?Ic>222
-R5
-32
-R6
-!i10b 1
 R7
-Z42 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Louis/Desktop/cours epfl/ba3/Comparche/lab1/Tp1-Comparch/template/testbench/tb_logic_unit.vhd|
-Z43 !s107 C:/Users/Louis/Desktop/cours epfl/ba3/Comparche/lab1/Tp1-Comparch/template/testbench/tb_logic_unit.vhd|
-!i113 1
+32
 R8
-R9
+!i10b 1
+Z50 !s108 1696425195.000000
+Z51 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Louis/Desktop/cours epfl/ba3/Comparche/lab1/Tp1-Comparch/template/testbench/tb_logic_unit.vhd|
+Z52 !s107 C:/Users/Louis/Desktop/cours epfl/ba3/Comparche/lab1/Tp1-Comparch/template/testbench/tb_logic_unit.vhd|
+!i113 1
+R12
+R13
 Atestbench
 R2
 R3
 DEx4 work 13 tb_logic_unit 0 22 56]=9U8E_0^hnOWE8_kak0
-!i122 16
+!i122 274
 l21
 L7 55
-V`0kk7YXj[@0WISfGCa[BH3
-!s100 Tk@k:O5YobmggeTA;0C:?1
-R5
-32
-R6
-!i10b 1
+VX7lk;e@U6PZ8d1S:;ZzJ]3
+!s100 fAN^HTY4hfOH]zLc:Tob50
 R7
-R42
-R43
-!i113 1
+32
 R8
-R9
+!i10b 1
+R50
+R51
+R52
+!i113 1
+R12
+R13
